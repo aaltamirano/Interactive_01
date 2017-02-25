@@ -1,0 +1,139 @@
+/*
+font-style - bold, Italic, Underline
+font-weight - px
+font-size - pt
+font-family - Courier, Garamond
+text-align - Center
+line-height
+letter-spacing
+text-transform - Cap, Lowercase, All Cap
+*/
+
+body 		{
+				background: #64DFA3;
+				font-family: Times;
+				font-weight: 18px;
+				font-size: 24pt;
+				line-height: 50px;
+				/*text-decoration: line-through;*/
+				letter-spacing: 10px;
+			}
+
+.main
+			{	
+				width: 90%;
+				margin: 100px auto;	
+			}
+#h3
+			{
+				color: #2B2B2B;
+				font-family: Garamond;
+				font-size: 30pt;
+				text-align: center;
+				font-style: bold;
+
+			} 
+
+.bold
+			{
+				font-style: bold; 
+			}
+
+.textrans   {
+				text-transform: uppercase;
+			}
+
+.box {
+  background: red;
+  height: 100px;
+  position: relative;
+  width: 20px;
+
+     -webkit-transition: width 1s, height 1s, background-color 1s, -webkit-transform 1s;
+    transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+.box:after {
+  background: red;
+  content: "";
+  height: 20px;
+  left: -40px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+}
+
+.box:hover {
+    background-color: red;
+/*    width: 200px;
+    height: 200px;*/
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.parent {
+    width: 250px;
+    height: 125px;
+}
+
+.shrink {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 20px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    -webkit-transition-property: width height background-color font-size left top color;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-delay: 4s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-property: width height background-color font-size left top color;
+    transition-duration: 2s;
+    transition-delay: 4s;
+    transition-timing-function: ease-in-out;
+}
+
+.shrink1 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    color: yellow;
+    font-size: 18px;
+    left: 150px;
+    top: 25px;
+    position: absolute;
+    -webkit-transition-property: width height background-color font-size left top color;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-delay: 4s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-property: width height background-color font-size left top color;
+    transition-duration: 2s;
+    transition-delay: 4s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

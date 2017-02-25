@@ -1,0 +1,69 @@
+
+body 		
+			{
+				background: #BC6363;
+				font-family: courier;
+				font-weight: 18px;
+				font-size: 800pt;
+				line-height: 50px;
+				/*text-decoration: line-through;*/
+				letter-spacing: 5px;
+			}
+
+.main
+			{	
+				width: 10%;
+				margin: 100px auto;	
+			}
+#h3
+			{
+				color: #2B2B2B;
+				font-family: Garamond;
+				font-size: 30pt;
+				text-align: center;
+				font-style: bold;
+
+			} 
+
+.bold
+			{
+				font-style: bold; 
+			}
+
+.textrans   {
+				text-transform: uppercase;
+			}
+
+div {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 0%;
+    width: 300%; 
+  }
+
+  to {
+    margin-right: 100%;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+
+body 		
+			{
+				background: yellow;
+				font-family: Garamond;
+				font-weight: 18px;
+				font-size: 100pt;
+				line-height: 50px;
+				/*text-decoration: line-through;*/
+				letter-spacing: 5px;
+			}
+
+.main
+			{	
+				width: 10%;
+				margin: 100px auto;	
+			}
+#h3
+			{
+				color: #2B2B2B;
+				font-family: Garamond;
+				font-size: 30pt;
+				text-align: center;
+				font-style: bold;
+
+			} 
+
+.bold
+			{
+				font-style: bold; 
+			}
+
+.textrans   {
+				text-transform: uppercase;
+			}
+
+.circle-outline
+			{
+				transition: background: 5s ease-in;
+							width 1s ease, 
+							height 1s ease, 
+							-moz-border-radius 1s ease
+							-webkit-border-radius 1s ease
+							border-radius 1s ease;
+
+				width: 0.5px;
+				height: 50px;
+				border: 10px dotted black;
+				-moz-border-radius: 50px;
+				-webkit-border-radius: 50px;
+				border-radius: 50px;
+				float: left;
+				margin: 15px;
+			}
+
+div {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: : 0%;
+    width: 300%; 
+  }
+
+  to {
+    margin-bottom: 100%;
+    width: 100%;
+  }
