@@ -1,0 +1,55 @@
+/*
+font-style
+font-weight
+font-size
+font-family
+text-align
+line-height
+letter-spacing
+text-transform
+*/
+
+body 		{
+				background: #A3DC96;
+				font-family: cursive;
+				font-weight: 18px;
+
+			}
+
+
+.main
+			{	
+				width: 80%;
+				margin: 100px auto;	
+			}
+#h3
+			{
+				color: black;
+				font-family: Garamond;
+				font-size: 20pt;
+				text-align: center;
+			}
+
+#h1
+			{
+				color: black;
+				font-family: Garamond;
+				font-size: 48pt;
+				text-align: center;
+			}
+			
+.allign
+			{
+				height: 300px;
+				width: 300px;
+				position: fixed;
+				margin: 300px auto;
+			}
+
+.bold
+			{
+				font-style: bold; 
+			}
+.textrans   {
+				text-transform: capitalize;
+			}

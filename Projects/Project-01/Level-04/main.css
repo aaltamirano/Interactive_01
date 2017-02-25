@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+
+	font-family: Garamond;
+	line-height: 1.5em;
+	background: #88A9C4;
+	font-size: 1em;
+}
+
+h1{
+	margin: 20px;
+	font-size: 3em;
+	font-style: bold;
+}
+
+.main{
+	width: 80%;
+	margin: 100px auto;
+	padding: 50px;
+}
+
+
+ul{
+	list-style: none;
+}
+ 
+ul li{
+	color: #dadada;
+}
+
+a:link{
+	color: #0000ff;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #455562;
+}

@@ -1,0 +1,46 @@
+.main
+			{	
+				width: 80%;
+				margin: 100px auto;	
+			}
+#h3
+			{
+				color: black;
+				font-family: Helvetica;
+				font-size: 20pt;
+				text-align: center;
+			}
+
+#h1
+			{
+				color: black;
+				font-family: Helvetica;
+				font-size: 36pt;
+				text-align: center;
+			}
+
+.body
+			{
+				background:white;
+				font-family: sans-serif;
+			}
+
+.allign
+			{
+				height: 300px;
+				width: 300px;
+				position: relative;
+				margin: 300px auto;
+			}
+
+.container
+			{
+				width: 15%;
+				overflow: scroll;
+				border: 20px solid gray;
+			}
+
+.bold
+			{
+				font-style: bold; 
+			}

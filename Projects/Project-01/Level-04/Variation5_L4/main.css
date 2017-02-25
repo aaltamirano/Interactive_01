@@ -1,0 +1,51 @@
+/*
+font-style - bold, Italic, Underline
+font-weight - px
+font-size - pt
+font-family - Courier, Garamond
+text-align - Center
+line-height
+letter-spacing
+text-transform - Cap, Lowercase, All Cap
+*/
+
+body 		{
+				background: #8AA7BD;
+				font-family: Courier;
+				font-weight: 18px;
+				font-size: 50pt;
+				line-height: 150px;
+				text-decoration: line-through;
+			}
+
+.main
+			{	
+				width: 80%;
+				margin: 100px auto;	
+			}
+#h3
+			{
+				color: black;
+				font-family: Garamond;
+				font-size: 30pt;
+				text-align: center;
+				font-style: bold;
+
+			} 
+
+#h1
+			{
+				color: black;
+				font-family: Garamond;
+				font-size: 55pt;
+				text-align: center;
+			}
+
+.bold
+			{
+				font-style: bold; 
+			}
+
+.textrans   {
+				text-transform: uppercase;
+			}
