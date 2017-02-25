@@ -1,0 +1,92 @@
+/*
+font-style - bold, Italic, Underline
+font-weight - px
+font-size - pt
+font-family - Courier, Garamond
+text-align - Center
+line-height
+letter-spacing
+text-transform - Cap, Lowercase, All Cap
+*/
+
+body 		{
+				background: #242424;
+				font-family: Times;
+				font-weight: 18px;
+				font-size: 24pt;
+				line-height: 50px;
+				/*text-decoration: line-through;*/
+				letter-spacing: -15px;
+			}
+
+.main
+			{	
+				width: 80%;
+				margin: 100px auto;	
+			}
+#h3
+			{
+				color: black;
+				font-family: Garamond;
+				font-size: 30pt;
+				text-align: center;
+				font-style: bold;
+
+			} 
+
+#h1
+			{
+				color: black;
+				font-family: Garamond;
+				font-size: 55pt;
+				text-align: center;
+				letter-spacing: -10px;
+			}
+
+.bold
+			{
+				font-style: bold; 
+			}
+
+.textrans   {
+				text-transform: uppercase;
+			}
+
+.pacman 	{
+				 width: 0px;
+				 height: 0px;
+				 border-right: 60px solid transparent;
+				 border-top: 60px solid yellow;
+				 border-left: 60px solid yellow;
+				 border-bottom: 60px solid yellow;
+				 border-top-left-radius: 60px;
+				 border-top-right-radius: 60px;
+				 border-bottom-left-radius: 60px;
+				 border-bottom-right-radius: 60px;
+				 transition:width 5s ease-in;
+			}
+.pacman:hover
+			{
+				width: 300px;
+			}
+
+.pacmans 	{
+				 width: 0px;
+				 height: 0px;
+				 border-right: 60px solid transparent;
+				 border-top: 60px solid yellow;
+				 border-left: 60px solid yellow;
+				 border-bottom: 60px solid yellow;
+				 border-top-left-radius: 60px;
+				 border-top-right-radius: 60px;
+				 border-bottom-left-radius: 60px;
+				 border-bottom-right-radius: 60px;
+				 transition:width 1s ease-in;
+			}
+
+.pacmans:hover
+			{
+				width: 300px;
+				background: #ff0000;
+}
+			}
