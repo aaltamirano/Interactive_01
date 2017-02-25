@@ -4,9 +4,9 @@
 
 body{
 
-	font-family: sans-serif;
+	font-family: Garamond;
 	line-height: 1.5em;
-	background:white;
+	background: #88A9C4;
 	font-size: 1em;
 }
 
@@ -38,6 +38,7 @@ a:link{
 
 a:hover{
 	text-decoration: underline;
+	color: #455562;
 }
 
 
