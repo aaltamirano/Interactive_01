@@ -1,0 +1,43 @@
+.circle 
+{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  float: left;
+  margin-right: 20px;
+  background-color: #BFF661;
+}
+
+.circle2 
+{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin-bottom: 30px;
+  float: right;
+  margin-right: 20px;
+  background-color: #F7CCD6;
+}
+.circle3 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  float: center;
+  margin-right: 20px;
+  background-color: #384FF4;
+
+}
+
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
