@@ -19,7 +19,8 @@
   margin-right: 20px;
   background-color: #F7CCD6;
 }
-.circle3 {
+.circle3 
+{
   height: 100px;
   width: 100px;
   border-radius: 50px;
@@ -31,7 +32,8 @@
 }
 
 
-body, html {
+body, html
+ {
   height: 100%;
 }
 
