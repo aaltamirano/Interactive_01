@@ -1,3 +1,11 @@
+body 
+{
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .circle 
 {
   height: 100px;
@@ -32,14 +40,8 @@
 }
 
 
-body, html
+/*body, html
 {
   height: 100%;
-}
+}*/
 
-body {
-  background-color: gray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
