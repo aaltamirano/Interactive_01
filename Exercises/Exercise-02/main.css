@@ -9,7 +9,7 @@
   background-color: #BFF661;
 }
 
-.circle2 
+.circleTWO 
 {
   height: 200px;
   width: 200px;
@@ -19,7 +19,7 @@
   margin-right: 20px;
   background-color: #F7CCD6;
 }
-.circle3 
+.circleTHREE
 {
   height: 100px;
   width: 100px;
@@ -38,7 +38,7 @@ body, html
 }
 
 body {
-  background-color: white;
+  background-color: gray;
   display: flex;
   justify-content: center;
   align-items: center;
