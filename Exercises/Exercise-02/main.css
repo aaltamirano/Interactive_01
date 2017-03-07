@@ -8,13 +8,14 @@ body
 
 .circle 
 {
+  float: left;
+  margin-right: 20px;
+  background-color: #BFF661;
   height: 100px;
   width: 100px;
   border-radius: 50px;
   margin-bottom: 30px;
-  float: left;
-  margin-right: 20px;
-  background-color: #BFF661;
+  
 }
 
 .circleTWO 
@@ -39,9 +40,13 @@ body
 
 }
 
+.oval {
+	width: 200px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
 
-/*body, html
-{
-  height: 100%;
-}*/
 
