@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+
+				var dogAudio = $("#pop")[0];
+				$("#box1").mouseenter(function(){
+					dogAudio.play();
+				});
+				
+			});
+
+		</script>
+
+		<style>
+			#box1{
+				width: 1280px;
+				height: 720px;
+				background-image: url(maxresdefault.jpg);
+				background-repeat: no-repeat;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div id="box1">
+		</div>
+
+		<audio id="pop">
+		<source src="pop.wav" type="audio/wav"></source>
+		</audio>
+
+
+	</body>
+</html>
