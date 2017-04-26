@@ -19,6 +19,8 @@ body {
 	background: red;
 	display: inline-block;
 	margin-right: 15%;
+	opacity: 50;
+
 }
 #circle
 {
