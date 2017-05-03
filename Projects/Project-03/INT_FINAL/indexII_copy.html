@@ -1,0 +1,145 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">
+  		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  		<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+      <script src="jQueryRotate.js"></script>
+
+
+  		<style>
+
+  			#draggable{ 
+  				width: 150px;
+  				height: 150px;
+  				padding: 0.5em;
+          background-color: #0000ff;
+          font-style: sans-serif;
+          color: #ffffff;
+  			 }
+
+         #droppable{
+          width: 150px;
+          height: 150px;
+          padding: 0.5em;
+          background-color: #ffffff;
+          border: #000000 1px solid;
+          font-style: sans-serif;
+          color: #000000;
+         }
+
+
+
+         #draggable:hover{
+          cursor: cell;
+         }
+
+       /*  #rectangle 
+        {
+        width: 10px;
+        height: 700px;
+        margin-top: 30px;
+        margin-left: 300px;
+        background: black;
+        position: fixed;
+        }
+*/
+        .letters{
+          width: 100px; 
+          height: 100px;
+
+        }
+        .letterImg{
+        width:  100%;
+        height: auto;
+        }
+div{
+  position: fixed;
+}
+
+
+  		</style>
+
+      <script>
+
+        $(function(){
+          $('.letters').draggable();
+          $('.letters').resizable();
+
+          var value = 0
+          $(".letterImg").rotate({ 
+             bind: 
+               { 
+                  click: function(){
+                      value +=90;
+                      $(this).rotate({ animateTo:value})
+                  }
+               } 
+             
+          });
+
+        });
+
+
+
+
+      </script>
+	</head>
+
+	<body>
+  <a href="mailto:a.altamirano@cca.edu?Subject=Type%20as%20Image" target="_top">Send</a>
+
+    <div id = "rectangle"> </div>
+      
+    <div  class="letters">
+      <img class="letterImg" src="CapA.png"> 
+    </div>    
+
+    <div  class="letters">
+      <img class="letterImg" src="CapB.png"> 
+    </div>
+
+    <div  class="letters">
+      <img class="letterImg" src="CapC.png"> 
+    </div>
+
+     <div  class="letters">
+      <img class="letterImg" src="CapA_SS.png"> 
+    </div>
+
+     <div  class="letters">
+      <img class="letterImg" src="CapB_SS.png"> 
+    </div>
+
+     <div  class="letters">
+      <img class="letterImg" src="CapC_SS.png"> 
+    </div>
+
+    <div  class="letters">
+      <img class="letterImg" src="CapA_SLAB.png"> 
+    </div>
+
+     <div  class="letters">
+      <img class="letterImg" src="CapB_SLAB.png"> 
+    </div>
+
+     <div  class="letters">
+      <img class="letterImg" src="CapC_SLAB.png"> 
+    </div>
+
+        <div  class="letters">
+      <img class="letterImg" src="CapA_SCRIPT.png"> 
+    </div>
+
+     <div  class="letters">
+      <img class="letterImg" src="CapB_SCRIPT.png"> 
+    </div>
+
+     <div  class="letters">
+      <img class="letterImg" src="CapC_SCRIPT.png"> 
+    </div>
+
+
+	</body>
+</html
