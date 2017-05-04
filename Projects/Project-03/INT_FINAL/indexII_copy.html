@@ -79,14 +79,26 @@ div{
 
         });
 
+      $(document).ready(function () {
+       $('#draggable').draggable({
+             helper: "clone"
+             });
+     $('#draggable').bind('dragstop', function (event, ui) {
+        $(this).after($(ui.helper).clone().draggable().resizable());
+    });
+
+});
+
       </script>
 	</head>
 
 	<body>
 
-  <h3>Drag. Drop. Create. Type as Image. </h3>
+  <h2>Drag. Drop. Create. Type as Image. </h2>
 
-  <a href="mailto:a.altamirano@cca.edu?Subject=Type%20as%20Image" target="_top">Send</a>
+  <li><a href="Extensive/index.html">Gallery</li>
+  <br>
+  <li><a href="mailto:a.altamirano@cca.edu?Subject=Type%20as%20Image" target="_top">Send it to me!</a></li>
       
     <div  class="letters">
       <img class="letterImg" src="CapA.png"> 
