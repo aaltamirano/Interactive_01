@@ -5,6 +5,7 @@
 		<script>
 			$(document).ready(function(){
 
+				var cars
 				var dogAudio = $("#pop")[0];
 				$("#box1").mouseenter(function(){
 					dogAudio.play();
@@ -28,6 +29,10 @@
 
 		<div id="box1">
 		</div>
+
+		<video id="cars" width="700" autoplay>
+			<source src="cars.mp4">
+		</video>
 
 		<audio id="pop">
 		<source src="pop.wav" type="audio/wav"></source>
